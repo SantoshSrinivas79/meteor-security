@@ -16,7 +16,7 @@ Package.onUse(function (api) {
     'ejson',
     'ecmascript',
   ]);
-  api.use('alanning:roles@1.2.16', ['client', 'server'], {
+  api.use('alanning:roles@3.2.0', ['client', 'server'], {
     weak: true
   });
 
